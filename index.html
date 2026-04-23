@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOSTIFY CI - Application de Gestion Hôtelière</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header avec navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <h1>H<span class="brand-icon">🛎️</span>STIFY</h1>
+                    <span class="brand-subtitle">APPLICATION DE GESTION HÔTELIÈRE</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#features">Fonctionnalités</a></li>
+                    <li><a href="#hotels">Hôtels</a></li>
+                    <li><a href="#pricing">Tarifs</a></li>
+                    <li><a href="reservation.html" class="btn-book">RÉSERVER</a></li>
+                    <li><a href="admin.html" class="btn-admin">ADMIN</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">SOLUTION SAAS POUR HÔTELIERS AFRICAINS</div>
+            <h1 class="hero-title">
+                L'EXCELLENCE<br>HÔTELIÈRE<br>COMMENCE ICI
+            </h1>
+            <p class="hero-subtitle">
+                Gérez vos chambres, réservations et chiffre d'affaires en toute simplicité<br>
+                avec notre plateforme tout-en-un adaptée au marché ivoirien.
+            </p>
+            <div class="hero-buttons">
+                <a href="reservation.html" class="btn-primary">Réserver une chambre <i class="fas fa-arrow-right"></i></a>
+                <a href="#demo" class="btn-secondary">Voir la démo <i class="fas fa-play"></i></a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-label">HÔTELS CONNECTÉS</div>
+                    <div class="stat-number counter" data-target="48">0</div>
+                    <div class="stat-text">En Côte d'Ivoire</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">RÉSERVATIONS</div>
+                    <div class="stat-number counter" data-target="3250">0</div>
+                    <div class="stat-text">Ce mois</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">SATISFACTION CLIENT</div>
+                    <div class="stat-number">4.8/5</div>
+                    <div class="stat-text">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">CHAMBRES GÉRÉES</div>
+                    <div class="stat-number counter" data-target="2850">0</div>
+                    <div class="stat-text">En temps réel</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section - Fonctionnalités de l'application -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">TOUT CE DONT VOUS AVEZ BESOIN</div>
+                <h2 class="section-title">Fonctionnalités de gestion hôtelière</h2>
+                <p class="section-description">Une solution complète pour gérer votre établissement efficacement</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-door-open"></i>
+                    </div>
+                    <h3>Enregistrement des chambres</h3>
+                    <p>Gérez facilement votre inventaire de chambres avec photos, descriptions et tarifs personnalisés en FCFA.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Suivi des réservations</h3>
+                    <p>Visualisez et gérez toutes vos réservations en temps réel avec un calendrier interactif.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>État des chambres</h3>
+                    <p>Suivez le statut de chaque chambre : occupée, libre ou réservée en un coup d'œil.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Suivi du chiffre d'affaires</h3>
+                    <p>Analysez vos revenus en FCFA avec des rapports détaillés et des graphiques personnalisables.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Multi-établissements</h3>
+                    <p>Gérez plusieurs hôtels depuis une seule interface centralisée et intuitive.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Paiement mobile intégré</h3>
+                    <p>Acceptez les paiements via Orange Money, MTN Mobile Money et Wave.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hôtels partenaires -->
+    <section id="hotels" class="hotels">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">ILS NOUS FONT CONFIANCE</div>
+                <h2 class="section-title">Hôtels utilisant HOSTIFY en Côte d'Ivoire</h2>
+                <p class="section-description">Découvrez les établissements disponibles sur notre plateforme</p>
+            </div>
+            
+            <div class="hotels-grid">
+                <div class="hotel-card">
+                    <div class="hotel-image">
+                        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400" alt="Azalaï Hôtel Abidjan">
+                        <div class="hotel-badge">4.7 ★</div>
+                    </div>
+                    <div class="hotel-info">
+                        <h3>Azalaï Hôtel Abidjan</h3>
+                        <p class="hotel-location"><i class="fas fa-map-marker-alt"></i> Marcory, Abidjan</p>
+                        <p class="hotel-description">Hôtel de luxe au bord de la lagune avec vue panoramique et accès direct à la plage.</p>
+                        <div class="hotel-features">
+                            <span><i class="fas fa-bed"></i> 200 chambres</span>
+                            <span><i class="fas fa-star"></i> 5 étoiles</span>
+                        </div>
+                        <a href="reservation.html?hotel=azalai" class="btn-hotel">Réserver <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="hotel-card">
+                    <div class="hotel-image">
+                        <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=400" alt="Pullman Abidjan">
+                        <div class="hotel-badge">4.8 ★</div>
+                    </div>
+                    <div class="hotel-info">
+                        <h3>Pullman Abidjan</h3>
+                        <p class="hotel-location"><i class="fas fa-map-marker-alt"></i> Plateau, Abidjan</p>
+                        <p class="hotel-description">Hôtel d'affaires au cœur du quartier des affaires avec centre de conférence.</p>
+                        <div class="hotel-features">
+                            <span><i class="fas fa-bed"></i> 150 chambres</span>
+                            <span><i class="fas fa-star"></i> 5 étoiles</span>
+                        </div>
+                        <a href="reservation.html?hotel=pullman" class="btn-hotel">Réserver <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="hotel-card">
+                    <div class="hotel-image">
+                        <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=400" alt="Tiama Hôtel">
+                        <div class="hotel-badge">4.6 ★</div>
+                    </div>
+                    <div class="hotel-info">
+                        <h3>Tiama Hôtel Abidjan</h3>
+                        <p class="hotel-location"><i class="fas fa-map-marker-alt"></i> Plateau, Abidjan</p>
+                        <p class="hotel-description">Hôtel élégant alliant confort moderne et hospitalité ivoirienne authentique.</p>
+                        <div class="hotel-features">
+                            <span><i class="fas fa-bed"></i> 138 chambres</span>
+                            <span><i class="fas fa-star"></i> 4 étoiles</span>
+                        </div>
+                        <a href="reservation.html?hotel=tiama" class="btn-hotel">Réserver <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Preview -->
+    <section id="demo" class="dashboard-preview">
+        <div class="container">
+            <div class="preview-grid">
+                <div class="preview-content">
+                    <div class="section-subtitle">INTERFACE INTUITIVE</div>
+                    <h2 class="section-title">Gérez votre hôtel comme un pro</h2>
+                    <ul class="preview-features">
+                        <li><i class="fas fa-check-circle"></i> Tableau de bord en temps réel</li>
+                        <li><i class="fas fa-check-circle"></i> Calendrier des réservations interactif</li>
+                        <li><i class="fas fa-check-circle"></i> Gestion des chambres et tarifs en FCFA</li>
+                        <li><i class="fas fa-check-circle"></i> Rapports financiers détaillés</li>
+                        <li><i class="fas fa-check-circle"></i> Application bureau multiplateforme</li>
+                        <li><i class="fas fa-check-circle"></i> Intégration Orange Money et MTN Mobile Money</li>
+                    </ul>
+                    <a href="#" class="btn-primary">Télécharger l'application <i class="fas fa-download"></i></a>
+                </div>
+                <div class="preview-image">
+                    <div class="dashboard-mockup">
+                        <div class="mockup-header">
+                            <div class="mockup-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="mockup-title">HOSTIFY Dashboard - Côte d'Ivoire</div>
+                        </div>
+                        <div class="mockup-content">
+                            <div class="mockup-stats">
+                                <div class="mockup-stat">🏨 48 Hôtels</div>
+                                <div class="mockup-stat">🛏️ 2,8k Chambres</div>
+                                <div class="mockup-stat">💰 98,5M FCFA CA</div>
+                            </div>
+                            <div class="mockup-chart">
+                                <div class="chart-bar" style="height: 60px;"></div>
+                                <div class="chart-bar" style="height: 90px;"></div>
+                                <div class="chart-bar" style="height: 75px;"></div>
+                                <div class="chart-bar" style="height: 110px;"></div>
+                                <div class="chart-bar" style="height: 85px;"></div>
+                            </div>
+                            <div class="mockup-rooms">
+                                <div class="room-status">
+                                    <span class="status-dot free"></span> Libres: 845
+                                    <span class="status-dot occupied"></span> Occupées: 1,250
+                                    <span class="status-dot reserved"></span> Réservées: 755
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">TARIFS SIMPLES ET TRANSPARENTS</div>
+                <h2 class="section-title">Choisissez votre formule</h2>
+                <p class="section-description">Des offres adaptées à tous les établissements, des petits hôtels aux grandes chaînes</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">35.000<span> FCFA/mois</span></div>
+                    <p class="pricing-description">Pour les petits établissements</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Jusqu'à 20 chambres</li>
+                        <li><i class="fas fa-check"></i> Réservations illimitées</li>
+                        <li><i class="fas fa-check"></i> Support par email et WhatsApp</li>
+                        <li><i class="fas fa-check"></i> Paiement mobile intégré</li>
+                        <li><i class="fas fa-check"></i> Mises à jour incluses</li>
+                    </ul>
+                    <a href="#" class="btn-pricing">Commencer</a>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Populaire</div>
+                    <h3>Professional</h3>
+                    <div class="price">75.000<span> FCFA/mois</span></div>
+                    <p class="pricing-description">Pour les hôtels en croissance</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Jusqu'à 100 chambres</li>
+                        <li><i class="fas fa-check"></i> Multi-utilisateurs (5 comptes)</li>
+                        <li><i class="fas fa-check"></i> Support prioritaire 7j/7</li>
+                        <li><i class="fas fa-check"></i> Rapports avancés</li>
+                        <li><i class="fas fa-check"></i> API incluse</li>
+                        <li><i class="fas fa-check"></i> Formation en ligne offerte</li>
+                    </ul>
+                    <a href="#" class="btn-pricing">Essai gratuit 14 jours</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">Sur mesure</div>
+                    <p class="pricing-description">Pour les chaînes hôtelières</p>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Chambres illimitées</li>
+                        <li><i class="fas fa-check"></i> Multi-établissements</li>
+                        <li><i class="fas fa-check"></i> Support 24/7 dédié</li>
+                        <li><i class="fas fa-check"></i> Personnalisation complète</li>
+                        <li><i class="fas fa-check"></i> Formation sur site</li>
+                        <li><i class="fas fa-check"></i> Gestion multi-pays</li>
+                    </ul>
+                    <a href="#" class="btn-pricing">Contactez-nous</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">TÉMOIGNAGES</div>
+                <h2 class="section-title">Ce que disent nos clients</h2>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>HOSTIFY a transformé la gestion de notre hôtel. Le suivi des réservations en temps réel et l'intégration Orange Money nous ont fait gagner un temps précieux.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://i.pinimg.com/1200x/cb/37/9c/cb379c5f5276cc362c8d16880189c3e8.jpg" alt="Kadiatou Diallo">
+                        <div>
+                            <h4>Kadiatou Diallo</h4>
+                            <p>Directrice, Azalaï Hôtel Abidjan</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Interface intuitive, support réactif et tarifs adaptés au marché ivoirien. Je recommande HOSTIFY à tous les hôteliers de la région.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://i.pinimg.com/736x/05/2e/44/052e44681a306c2f0d090a02d4320340.jpg" alt="Jean-Philippe Kouamé">
+                        <div>
+                            <h4>Jean-Philippe Kouamé</h4>
+                            <p>Propriétaire, Hôtel Les Ambassadeurs</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>La fonction multi-établissements nous permet de gérer nos trois hôtels depuis une seule plateforme. Un vrai plus pour notre chaîne !</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://i.pinimg.com/736x/0d/9d/01/0d9d01d427e82f456f7d771e1484c47a.jpg" alt="Aminata Touré">
+                        <div>
+                            <h4>Aminata Touré</h4>
+                            <p>Directrice Générale, Groupe Hôtelier Ivoirien</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>H<span>🛎️</span>STIFY</h2>
+                    <p>APPLICATION DE GESTION HÔTELIÈRE</p>
+                    <p class="footer-description">
+                        La solution complète pour gérer votre hôtel efficacement, conçue pour le marché ivoirien et africain.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#features">Fonctionnalités</a></li>
+                        <li><a href="#hotels">Hôtels</a></li>
+                        <li><a href="#pricing">Tarifs</a></li>
+                        <li><a href="admin.html">Administration</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Côte d'Ivoire</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Immeuble SICOGI, Plateau, Abidjan</p>
+                    <p><i class="fas fa-phone"></i> +225 27 20 22 33 44</p>
+                    <p><i class="fas fa-mobile-alt"></i> +225 07 08 09 10 11 (WhatsApp)</p>
+                    <p><i class="fas fa-envelope"></i> contact@hostify.ci</p>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Recevez nos offres et actualités</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <div class="payment-methods">
+                        <p style="margin-top: 15px; font-size: 12px;">Paiements acceptés :</p>
+                        <div style="display: flex; gap: 10px; margin-top: 8px;">
+                            <span style="background: #ff6600; padding: 4px 8px; border-radius: 4px; font-size: 11px;">Orange Money</span>
+                            <span style="background: #ffcc00; padding: 4px 8px; border-radius: 4px; font-size: 11px; color: #000;">MTN Mobile Money</span>
+                            <span style="background: #00aaff; padding: 4px 8px; border-radius: 4px; font-size: 11px;">Wave</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 HOSTIFY Côte d'Ivoire. Tous droits réservés.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
